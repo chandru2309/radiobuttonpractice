@@ -39,6 +39,8 @@ dependencies:
   path_provider:
   path:
   flutter_speed_dial:
+  flutter_switch:
+  five_pointed_star:
 dev_dependencies:
   flutter_test:
     sdk: flutter

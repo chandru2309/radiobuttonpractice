@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:radiobuttonpractice/Elevator.dart';
 import 'package:radiobuttonpractice/checkbox.dart';
+import 'package:radiobuttonpractice/dropdown.dart';
 import 'package:radiobuttonpractice/floatpractice.dart';
+import 'package:radiobuttonpractice/snackbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,7 +38,9 @@ class MyApp extends StatelessWidget {
       ),
      // home:CheckBoxPractice(),
     //home: ElevatorButtonPractice(),
-home: SpeedDialPractice(),
+//home: SpeedDialPractice(),
+  //home: SnackBarNotification(),
+    home: DropDownPractice(),
     );
   }
 }
