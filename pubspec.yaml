@@ -41,6 +41,8 @@ dependencies:
   flutter_speed_dial:
   flutter_switch:
   five_pointed_star:
+  shared_preferences:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

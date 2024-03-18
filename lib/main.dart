@@ -3,6 +3,7 @@ import 'package:radiobuttonpractice/Elevator.dart';
 import 'package:radiobuttonpractice/checkbox.dart';
 import 'package:radiobuttonpractice/dropdown.dart';
 import 'package:radiobuttonpractice/floatpractice.dart';
+import 'package:radiobuttonpractice/sharedpreferance.dart';
 import 'package:radiobuttonpractice/snackbar.dart';
 
 void main() {
@@ -36,11 +37,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-     // home:CheckBoxPractice(),
+  // home:CheckBoxPractice(),
     //home: ElevatorButtonPractice(),
 //home: SpeedDialPractice(),
   //home: SnackBarNotification(),
-    home: DropDownPractice(),
+//    home: DropDownPractice(),
+    home: SharedPrefrencePractice(),
     );
   }
 }
