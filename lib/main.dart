@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:radiobuttonpractice/Elevator.dart';
+import 'package:radiobuttonpractice/alert_dialog.dart';
 import 'package:radiobuttonpractice/checkbox.dart';
 import 'package:radiobuttonpractice/dropdown.dart';
 import 'package:radiobuttonpractice/floatpractice.dart';
+import 'package:radiobuttonpractice/radio.dart';
 import 'package:radiobuttonpractice/sharedpreferance.dart';
 import 'package:radiobuttonpractice/snackbar.dart';
+
+import 'image_picker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,10 +43,13 @@ class MyApp extends StatelessWidget {
       ),
   // home:CheckBoxPractice(),
     //home: ElevatorButtonPractice(),
-//home: SpeedDialPractice(),
-  //home: SnackBarNotification(),
-//    home: DropDownPractice(),
-    home: SharedPrefrencePractice(),
+//home: SpeedDialPractice()
+// home: SnackBarNotification(),
+//   home: DropDownPractice(),
+     //home: SharedPrefrencePractice(),
+      //home: RadioActionButton(),
+     // home: Alert(),
+      home: ImagePickerPage(),
     );
   }
 }

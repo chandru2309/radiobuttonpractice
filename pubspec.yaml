@@ -42,6 +42,7 @@ dependencies:
   flutter_switch:
   five_pointed_star:
   shared_preferences:
+  image_picker:
 
 dev_dependencies:
   flutter_test:

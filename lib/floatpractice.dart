@@ -19,7 +19,7 @@ class _SpeedDialPracticeState extends State<SpeedDialPractice> {
         children: [
           SpeedDialChild(
             child: Icon(Icons.share),
-            // label: 'share',
+             label: 'share',
           ),
           SpeedDialChild(
           )

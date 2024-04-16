@@ -29,6 +29,7 @@ ScaffoldMessenger.of(context).showSnackBar(SnackBar(
         borderRadius: BorderRadius.circular(77)),
       child: Text('Success!!!'),
     ),
+  duration: Duration(seconds: 5),
 ),
 );
              },
