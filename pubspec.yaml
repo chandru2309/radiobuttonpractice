@@ -43,6 +43,8 @@ dependencies:
   five_pointed_star:
   shared_preferences:
   image_picker:
+  flutter_tts:
+
 
 dev_dependencies:
   flutter_test:
