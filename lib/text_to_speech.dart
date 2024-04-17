@@ -23,12 +23,6 @@ class _TextToSpeechScreenState extends State<TextToSpeechScreen> {
   final TextEditingController _textController = TextEditingController();
   final FlutterTts flutterTts = FlutterTts();
 
-  @override
-  void dispose() {
-    _textController.dispose();
-    super.dispose();
-  }
-
   Future<void> _speak(String text) async {
     await flutterTts.setLanguage("en-US");
     await flutterTts.setPitch(1);
