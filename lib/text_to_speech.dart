@@ -57,10 +57,11 @@ class _TextToSpeechScreenState extends State<TextToSpeechScreen> {
               ElevatedButton(
                 onPressed: () {
                   String text = _textController.text.trim();
-                  if (text.isNotEmpty) {
-                    _speak(text);
-                  } else {
+                  if (text.isEmpty) {
                     _speak("Please enter some text!");
+
+                  } else {
+                    _speak(text);
                   }
                 },
                 child: Text('Speak'),
