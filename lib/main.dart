@@ -7,6 +7,7 @@ import 'package:radiobuttonpractice/floatpractice.dart';
 import 'package:radiobuttonpractice/radio.dart';
 import 'package:radiobuttonpractice/sharedpreferance.dart';
 import 'package:radiobuttonpractice/snackbar.dart';
+import 'package:radiobuttonpractice/switch_button.dart';
 import 'package:radiobuttonpractice/text_to_speech.dart';
 
 import 'image_picker.dart';
@@ -51,7 +52,8 @@ class MyApp extends StatelessWidget {
       //home: RadioActionButton(),
      // home: Alert(),
       //home: ImagePickerPage(),
-      home: TextSpeech()
+      //home: TextSpeech(),
+      home: SwitchButtonPractice(),
     );
   }
 }
